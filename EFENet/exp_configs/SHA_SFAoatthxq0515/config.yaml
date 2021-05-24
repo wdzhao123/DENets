@@ -1,0 +1,38 @@
+gpu_id: [0]
+exp_path: ./exp_outputs/BLUR_SFAoatthxq0515
+exp_name: BLUR_SFAoatth
+data_mode: BLUR
+if_dedata: False
+net: SFAoatthxq0515
+if_resume: False
+if_pretrain: False
+pretrained_path: ./wmy/all_ep_575_mae_61.2_mse_101.8.pth
+seed: 3035
+lr: 0.00001
+lr_decay: 1
+lr_decay_start: -1
+num_epoch_lr_decay: 0.95
+val_batchsize: 1
+train_batchsize: 3
+MAX_EPOCH: 1000
+if_print: False
+if_vis_results: False
+vis_train_result: False
+PRINT_FREQ: 1
+VAL_FREQ: 1
+VAL_DENSE_START: 1
+optimizer: Adam
+momentum: 0.995
+vector_loss: False
+use_my_loss: hxqloss0515
+
+
+
+
+
+
+
+
+
+
+
