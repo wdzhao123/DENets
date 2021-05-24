@@ -14,9 +14,9 @@ tensorflow==1.5.0
 
 # Test_datasets and Results:
 
- CUHK: Contains 100 testing images of CUHK Dataset and it's GT.
+    CUHK: Contains 100 testing images of CUHK Dataset and it's GT.
  
- DUT: Contains 500 testing images of DUT Dataset and it's GT.
+    DUT: Contains 500 testing images of DUT Dataset and it's GT.
 
 Test_dataset: https://pan.baidu.com/s/1Uj-i2CJVwt-Tz_d4NdDtEw 
 提取码：y5kv 
